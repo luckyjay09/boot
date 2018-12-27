@@ -1,16 +1,37 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/target/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+
 *.eml
 *.log
 *.log.*
 #generatorConfig.xml
 *.cache
 *.lock
-/build/
-
-##ignore this file##
-/target/ 
-.classpath
-.project
-.settings     
 
 ##filter databfile、sln file##
 *.mdb  
@@ -45,10 +66,4 @@
 .Trashes  
 Icon?  
 ehthumbs.db  
-Thumbs.db  
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+Thumbs.db

@@ -1,4 +1,4 @@
-package com.jay.bootdemo;
+package com.jay.boot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
